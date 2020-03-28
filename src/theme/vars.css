@@ -1,0 +1,8 @@
+:root {
+  --aui-font-size: 16px;
+}
+
+.aui-font {
+  font-size: 16px;
+  font-size: var(--aui-font-size, 16px);
+}

@@ -1,0 +1,10 @@
+@import "../vars.css";
+
+:root {
+  --aui-tag-color: #ff0080;
+}
+
+.aui-tag {
+  color: #ff0080;
+  color: var(--aui-tag-color, #ff0080);
+}
