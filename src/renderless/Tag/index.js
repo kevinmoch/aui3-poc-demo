@@ -1,2 +1,1 @@
-export const text = ({ $mode, content }) =>
-  $mode === "pc" ? content.toUpperCase() : content.toLowerCase();
+export const text = ({ $mode, content }) => $mode === 'pc' ? content.toUpperCase() : content.toLowerCase()

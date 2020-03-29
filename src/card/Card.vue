@@ -18,16 +18,16 @@
 export default {
   data() {
     return {
-      title: "Card title",
-      subTitle: "Card subtitle",
+      title: 'Card title',
+      subTitle: 'Card subtitle',
       text:
         "Some quick example text to build on the card title and make up the bulk of the card's content"
-    };
+    }
   },
   cssVars: {
-    "aui-card-color": "#dadada"
+    'aui-card-color': '#dadada'
   }
-};
+}
 </script>
 
 <style scoped>

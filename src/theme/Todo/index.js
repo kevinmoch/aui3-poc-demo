@@ -1,3 +1,3 @@
 export default {
-  "aui-todo-color": "#0000f0"
-};
+  'aui-todo-color': '#0000f0'
+}

@@ -1,3 +1,3 @@
 export default {
-  "aui-tag-color": "#ff0080"
-};
+  'aui-tag-color': '#ff0080'
+}

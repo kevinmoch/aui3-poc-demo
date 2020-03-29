@@ -1,1 +1,1 @@
-export const trim = str => (typeof str === "string" ? str.trim() : "");
+export const trim = str => typeof str === 'string' ? str.trim() : ''

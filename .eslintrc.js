@@ -3,10 +3,7 @@ module.exports = {
   env: {
     node: true
   },
-  extends:
-    process.env.PLATFORM_ENV === "react"
-      ? ["react-app"]
-      : ["plugin:vue/essential", "@vue/standard"],
+  extends: process.env.PLATFORM_ENV === "react" ? ["react-app"] : ["plugin:vue/essential", "@vue/standard"],
   rules: {
     "one-var": "off",
     "no-mixed-operators": "off",
@@ -24,4 +21,4 @@ module.exports = {
   parserOptions: {
     parser: "babel-eslint"
   }
-};
+}

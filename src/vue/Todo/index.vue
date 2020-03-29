@@ -12,22 +12,18 @@
 </template>
 
 <script>
-import { $props, $setup } from "../common";
-import "../../theme/Todo/index.css";
+import { $props, $setup } from '../common'
+import '../../theme/Todo/index.css'
 
 export default {
-  name: "Todo",
+  name: 'Todo',
   props: {
     ...$props,
     newTag: String,
     tags: Array[String]
   },
   setup(props, context) {
-    return $setup({
-      props,
-      context,
-      template: mode => () => import(`./${mode}`)
-    });
+    return $setup({ props, context, template: mode => () => import(`./${mode}`) })
   }
-};
+}
 </script>
