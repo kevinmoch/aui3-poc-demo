@@ -10,7 +10,7 @@
     "build": "npm run build:vue && npm run build:react",
     "build:vue": "vue-cli-service build",
     "build:react": "cross-env PLATFORM_ENV=react PUBLIC_URL=./ react-app-rewired build",
-    "build:card": "cross-env PLATFORM_ENV=card vue build -t lib -n card -d card src/card/Card.vue && cp-cli card/card.umd.min.js public/card.js",
+    "build:card": "cross-env PLATFORM_ENV=card vue-cli-service build --target lib --name card --dest card src/card/Card.vue && cp-cli card/card.umd.min.js public/card.js",
     "start": "node http-server.js"
   },
   "dependencies": {
