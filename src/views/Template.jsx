@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/template.scss'
+import '../style/template.less'
 
 export default props => {
   const { addTag, removeTag, value, keydown, input, tags, ref } = props

@@ -1,6 +1,6 @@
 import React from 'react'
 import Tag from '../Tag'
-import '../../style/mobile.scss'
+import '../../style/mobile.less'
 
 export default props => {
   const { removeTag, value, keydown, input, tags, ref, $mode } = props

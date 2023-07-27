@@ -23,7 +23,7 @@
 <script>
 import { renderless, api } from '../renderless/Todo/vue'
 import { props, setup } from '../vue/common'
-import '../style/template.scss'
+import '../style/template.less'
 
 export default {
   props: [...props, 'newTag', 'tags'],

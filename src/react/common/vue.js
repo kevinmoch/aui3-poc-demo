@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import { useState, useEffect } from 'react'
 
 const arrayProto = Object.create(Array.prototype)

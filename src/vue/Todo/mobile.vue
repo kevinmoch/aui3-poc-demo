@@ -18,7 +18,7 @@
 <script>
 import { renderless, api } from '../../renderless/Todo/vue'
 import { props, setup } from '../common'
-import '../../style/mobile.scss'
+import '../../style/mobile.less'
 
 export default {
   props: [...props, 'newTag', 'tags'],
