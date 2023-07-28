@@ -3,7 +3,7 @@ import { changeTheme, supportCssVars, enableCssVars, themeVars } from './theme'
 import Todo from './views/Todo'
 import tagVars from './theme/Tag'
 import todoVars from './theme/Todo'
-import './style/app.less'
+import './style/app.css'
 
 export default () => {
   const [todoColor, setTodoColor] = useState(() => themeVars(Object.keys(todoVars)[0]))
@@ -34,11 +34,11 @@ export default () => {
   return (
     <div id="app">
       <div id="nav">
-        <span>更改 Tag 颜色 </span>
+        <span>更改 Tag 颜色</span>
         <input name="aui-tag-color" type="color" size="4" value={tagColor} onChange={change} />
-        <span>更改 {title} 颜色 </span>
+        <span>更改 {title} 颜色</span>
         <input name="aui-todo-color" type="color" size="4" value={todoColor} onChange={change} />
-        <span>更改字体大小 </span>
+        <span>更改字体大小</span>
         <input name="aui-font-size" type="text" size="2" value={fontSize} onChange={change} />
       </div>
       <Todo />

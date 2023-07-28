@@ -17,7 +17,7 @@ import Todo from './views/Todo.vue'
 import { cssVars as tagVars } from './vue/Tag'
 import { cssVars as todoVars } from './vue/Todo'
 import { changeTheme, supportCssVars, enableCssVars, themeVars, combineVars, onResize } from './theme'
-import './style/app.less'
+import './style/app.css'
 
 export default {
   components: {

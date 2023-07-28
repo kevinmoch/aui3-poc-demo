@@ -20,8 +20,7 @@ export default {
     return {
       title: 'Card title',
       subTitle: 'Card subtitle',
-      text:
-        "Some quick example text to build on the card title and make up the bulk of the card's content"
+      text: "Some quick example text to build on the card title and make up the bulk of the card's content"
     }
   },
   cssVars: {
