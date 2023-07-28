@@ -3,7 +3,7 @@ import { changeTheme, supportCssVars, enableCssVars, themeVars } from './theme'
 import Todo from './views/Todo'
 import tagVars from './theme/Tag'
 import todoVars from './theme/Todo'
-import './style/app.scss'
+import './style/app.less'
 
 export default () => {
   const [todoColor, setTodoColor] = useState(() => themeVars(Object.keys(todoVars)[0]))
